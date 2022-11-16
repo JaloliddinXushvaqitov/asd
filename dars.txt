@@ -1,1 +1,23 @@
-1234567890
+xato: noma'lum kalit "a"
+foydalanish: git add [<options>] [--] <pathspec>...
+
+    -n, --quruq yugurish quruq yugurish
+    -v, --verbose batafsil bo'l
+
+    -i, --interaktiv interaktiv tanlash
+    -p, --patch hunksni interaktiv tarzda tanlang
+    -e, --tahrirlash joriy farqni tahrirlang va qo'llang
+    -f, --force e'tibor berilmagan fayllarni qo'shish imkonini beradi
+    -u, --update kuzatilgan fayllarni yangilash
+    --renormalize kuzatilgan fayllar EOLini qayta normallashtirish (-u degani)
+    -N, --intent-to-add faqat yo'l keyinroq qo'shilishi faktini yozadi
+    -A, --barchasi barcha kuzatilgan va kuzatilmagan fayllardan o'zgarishlar kiritish
+    --ignore-removal ishchi daraxtda olib tashlangan yo'llarni e'tiborsiz qoldirish (xuddi --no-all)
+    --refresh qo'shmang, faqat indeksni yangilang
+    --ignore-errors faqat xatolar tufayli qo'shib bo'lmaydigan fayllarni o'tkazib yuboradi
+    --ignore-missing - hatto etishmayotgan - fayllar quruq ishda e'tiborga olinmaganligini tekshiring
+    --sparse siyrak-checkout konusidan tashqaridagi yozuvlarni yangilash imkonini beradi
+    --chmod (+|-)x ro'yxatdagi fayllarning bajariladigan bitini bekor qiladi
+    --pathspec-from-fayl <fayl>
+                          fayldan pathspecni o'qing
+    --pathspec-file-nul --pathspec-from-fayl bilan, pathspec elementlari NUL belgisi bilan ajratilgan
